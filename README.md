@@ -13,8 +13,14 @@ git clone https://github.com/lookeeloo-oss/main
 ```
 2. Open PHPMyAdmin and ensure the server for MySQL is on
 3. Create a database in PHPMyAdmin called `vss_db`
+
+![image](https://user-images.githubusercontent.com/58360911/143509284-462d7c85-78cd-4e6d-a024-fa8e9bf17301.png)
+
 4. Click the Import tab in your PHPMyAdmin then select the file called `vss_db.sql` in the `database` directory
-5. Start your PHP server by typing this. Use port 4000 or 8000 for the best results
+
+![image](https://user-images.githubusercontent.com/58360911/143509314-dc6a2638-b180-41f0-9a29-27368cda8048.png)
+
+6. Start your PHP server by typing this. Use port 4000 or 8000 for the best results
 ```
 php -S localhost:4000
 ```
